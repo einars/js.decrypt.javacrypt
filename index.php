@@ -96,6 +96,9 @@ button {
 .footer {
     color: #888;
 }
+.footer a {
+    color: #555;
+}
 
 </style>
 </head>
@@ -117,7 +120,7 @@ if ($message) {
 <button class="submit" type="submit">Unpack</button>
 </form>
 
-<p class="footer">Written by Einar Lielmanis, einar@jsbeautifier.org</p>
+<p class="footer">Written by Einar Lielmanis, einar@jsbeautifier.org<br>The source code is available on <a href="https://github.com/einars/js.decrypt.javacrypt">github</a>.</p>
 </div>
 
 <script>
