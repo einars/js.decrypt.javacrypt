@@ -1,8 +1,5 @@
 <?php
 
-error_reporting(E_ALL);
-ini_set('display_errors', 'on');
-
 # javacrypt decryptor
 # --------------------------------
 # written by Einar Lielmanis, 2013
