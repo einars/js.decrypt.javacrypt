@@ -26,7 +26,8 @@ function decrypt_javacrypt($source)
     $quote='["\']';
     $maybe_quote='["\']?';
 
-    if (preg_match('/JavaCrypt\(' . $quote . '([\da-zA-Z]+)' . $quote . ',\s*' . $maybe_quote . '([\da-zA-Z]+)' . $maybe_quote . '\)/', $source, $matches)) {
+    if (preg_match('/JavaCrypt\(' . $quote . '([\da-zA-Z]+)' . $quote . ',\s*' 
+        . $maybe_quote . '([\da-zA-Z]+)' . $maybe_quote . '\)/', $source, $matches)) {
         $encrypted = $matches[1];
         $cryptkey = $matches[2];
     }
