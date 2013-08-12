@@ -31,7 +31,7 @@ function decrypt_javacrypt($source)
         $encrypted = $matches[1];
         $cryptkey = $matches[2];
     }
-    if (preg_match('/(func' . 'tion JavaC.*?;return;})/', $source, $matches)) {
+    if (preg_match('/(func' . 'tion JavaC.*?return.*?return[^}]+})/s', $source, $matches)) {
         $decryptor_source = $matches[1];
     }
 
