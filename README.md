@@ -13,7 +13,7 @@ The "v1" is an older version of encryption, e.g it has problems running under Ch
 
 ## Browser/web
 
-Open [spicausis.lv/js.decrypt.javacrypt](https://spicausis.lv/js.decrypt.javacrypt/).
+<del>Open [spicausis.lv/js.decrypt.javacrypt](https://spicausis.lv/js.decrypt.javacrypt/).</del>
 
 
 ## PHP
